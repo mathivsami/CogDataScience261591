@@ -84,6 +84,6 @@ if __name__ == "__main__":
     for chrom in population:
         if fitness(chrom) == maxFitness:
             print("");
-            print("One of the solutions: ")
             chrom_out = chrom
-            print (chrom)
+            print ([queen - 1 for queen in chrom])
+            print (chrom_out)
